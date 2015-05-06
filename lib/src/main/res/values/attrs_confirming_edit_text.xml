@@ -1,0 +1,19 @@
+<resources>
+    <declare-styleable name="ConfirmingEditText">
+
+        <attr name="validDrawable" format="reference" />
+        <attr name="invalidDrawable" format="reference" />
+        <attr name="onChange" format="string" />
+
+        <!-- Defines the default soft input state that this window would
+             like when it is displayed.  Corresponds
+             to {@link android.view.WindowManager.LayoutParams#softInputMode}. -->
+        <attr name="regexToMatch">
+            <!-- Match an email -->
+            <flag name="email" value="0" />
+        </attr>
+    </declare-styleable>
+
+</resources>
+
+
